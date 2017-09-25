@@ -1,4 +1,5 @@
 #!/bin/bash
+# Explications : https://dascritch.net/post/2017/09/25/En-20-lignes-pas-plus-%3A-un-verrou-non-concurrentiel-pour-tes-scripts-bash
 
 LOCK_DIR=~/locks
 LOCK_FILE=${LOCK_DIR}/cron.lock
