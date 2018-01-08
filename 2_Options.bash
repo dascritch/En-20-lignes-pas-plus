@@ -1,5 +1,5 @@
 #!/bin/bash
-# Explications : post à venir
+# Explications : https://dascritch.net/post/2018/01/08/En-20-lignes-pas-plus-%3A-g%C3%A9rer-les-options-d-appel-de-tes-scripts-bash
 
 set -e
 while [ '-' == "${1:0:1}" ] ; do
