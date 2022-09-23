@@ -3,7 +3,7 @@
 
 set -e
 while [ '-' == "${1:0:1}" ] ; do
-    case "${1}" in
+    case "${1,,}" in
         -h|--help)
             echo "${HELP}"
             exit 0
